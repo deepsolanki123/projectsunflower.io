@@ -1,0 +1,322 @@
+<html>
+
+<head>
+    <!-- Page related info -->
+    <title>Deep Solanki</title>
+    <meta charset="UTF-8" />
+    <meta name="title" content="Deep Solanki">
+    <meta property="og:title" content="Deep Solanki">
+    <meta property="twitter:title" content="Deep Solanki">
+    <!-- Descriptions -->
+    <meta name="description"
+        content="This is Website of Deep Solanki.">
+    <meta property="og:description" content="Get Your website for your Business.">
+    <meta property="twitter:description"
+        content="This is Website of Deep Solanki.">
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <!-- Extra props -->
+    <meta property="og:site_name" content="Deep Solanki">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="twitter:url" content="">
+    <meta name="theme-color" content="#1c1c24">
+
+    <!-- favicon data generated on favicon-generator.org -->
+    <link rel="icon" type="image/png" sizes="16x16" href="image/logo.ico">
+    <meta name="msapplication-TileColor" content="#1c1c24">
+    <meta name="msapplication-TileImage" content="/img/icon/ms-icon-144x144.png">
+    <!-- Style importing -->
+    <link rel="stylesheet" href="cdn.materialdesignicons.com/2.8.94/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <!--Import Google Icon Font-->
+    <link href="fonts.googleapis.com/icon.css" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+        media="screen,projection">
+    <link href="fonts.googleapis.com/css.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Adding Jquery -->
+    <script src="code.jquery.com/jquery-3.2.1.min.js"></script>
+    <!--JavaScript at end of body for optimized loading-->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-173637831-1"></script>
+
+    <script src="cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+
+<!-- Loading CSS -->
+    <style>
+        #loading {
+            position: fixed;
+            width: 100%;
+            height: 100vh;
+            background: black;
+            z-index: 9999;
+        }
+    </style>
+
+    <style>
+        .neon_button {
+            position: relative;
+            display: inline-block;
+            padding: 25px 30px;
+            margin: 40px 30px;
+            ;
+            color: #03e9f4;
+            font-size: 24px;
+            text-decoration: none;
+            text-transform: uppercase;
+            overflow: hidden;
+            transition: 0.5s;
+            letter-spacing: 4px;
+            -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+        }
+
+        .neon_button:hover {
+            background-color: #03e9f4;
+            color: #050801;
+            box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 200px #03e9f4;
+        }
+
+        .neon_button span {
+            position: absolute;
+            display: block;
+        }
+
+        .neon_button:nth-child(1) {
+            filter: hue-rotate(29deg);
+        }
+
+        .neon_button:nth-child(3) {
+            filter: hue-rotate(110deg);
+        }
+
+        .neon_button span:nth-child(1) {
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, #03e9f4);
+            animation: animate1 1s linear infinite;
+        }
+
+        @keyframes animate1 {
+            0% {
+                left: -100%;
+            }
+
+            50%,
+            100% {
+                left: 100%;
+            }
+        }
+
+        .neon_button span:nth-child(2) {
+            top: -100%;
+            right: 0;
+            width: 2px;
+            height: 100%;
+            background: linear-gradient(180deg, transparent, #03e9f4);
+            animation: animate2 1s linear infinite;
+            animation-delay: 0.25s;
+        }
+
+        @keyframes animate2 {
+            0% {
+                top: -100%;
+            }
+
+            50%,
+            100% {
+                top: 100%;
+            }
+        }
+
+        .neon_button span:nth-child(3) {
+            bottom: 0;
+            right: -100%;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(270deg, transparent, #03e9f4);
+            animation: animate3 1s linear infinite;
+            animation-delay: 0.5s;
+        }
+
+        @keyframes animate3 {
+            0% {
+                right: -100%;
+            }
+
+            50%,
+            100% {
+                right: 100%;
+            }
+        }
+
+        .neon_button span:nth-child(4) {
+            bottom: -100%;
+            left: 0;
+            width: 2px;
+            height: 100%;
+            background: linear-gradient(360deg, transparent, #03e9f4);
+            animation: animate4 1s linear infinite;
+            animation-delay: 0.75s;
+        }
+
+        @keyframes animate4 {
+            0% {
+                bottom: -100%;
+            }
+
+            50%,
+            100% {
+                bottom: 100%;
+            }
+        }
+
+        .button_card {
+            background-color: rgb(28, 28, 36, 0.7) !important;
+        }
+
+        .neon_button {
+            cursor: pointer;
+            opacity: 0.8;
+        }
+
+        .loader_animation {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+    </style>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</head>
+
+
+
+<!-- BODY  ---------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<body class="mainbody" onload="myFunction23()">
+
+<!-- Loading animation -->
+    <div id="loading">
+        <div class="loader_animation">
+            <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_zcg2skbo.json" background="transparent" speed="1"
+                style="width: 250px; height: 250px;" loop autoplay></lottie-player>
+        </div>
+    </div>
+
+<!-- Navigation bar -->
+
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper mainbody-light-bg">
+                <a href="https://github.com/deepsolanki123" class="brand-logo"><img src="image/profilepic.png"
+                        style="color: #64b1f3" class="responsive-img circle avatar" alt="DEEP"></a>
+                <a href="download.html#" data-target="btlg-menu" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li class="text-uppercase"><a href="download.html">Home</a></li>
+                    <li class="text-uppercase"><a href="mailto:deep123solanki@gmail.com">Email</a></li>
+                    <li class="text-uppercase"><a href="https://www.instagram.com/deep_solanki_/">Instagram</a></li>
+                    <li class="text-uppercase"><a href="https://twitter.com/2a0bd45809dc4b1">Twitter</a></li>
+                    <li class="text-uppercase"><a href="https://www.linkedin.com/in/deep-solanki-2076a7135/">Linkedin</a></li>
+                    <li class="text-uppercase"><a href="https://t.me/Mr_Bakaa">Telegram</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <ul class="mainbody-midlight-bg sidenav" id="btlg-menu">
+      <li class="text-uppercase"><a href="download.html">Home</a></li>
+      <li class="text-uppercase"><a href="mailto:deep123solanki@gmail.com">Email</a></li>
+      <li class="text-uppercase"><a href="https://www.instagram.com/deep_solanki_/">Instagram</a></li>
+      <li class="text-uppercase"><a href="https://twitter.com/2a0bd45809dc4b1">Twitter</a></li>
+      <li class="text-uppercase"><a href="https://www.linkedin.com/in/deep-solanki-2076a7135/">Linkedin</a></li>
+      <li class="text-uppercase"><a href="https://t.me/Mr_Bakaa">Telegram</a></li>
+    </ul>
+
+
+    <div class="container" style="margin-top:10px;">
+        <div class="row">
+            <div class="card mainbody-light-bg z-depth-3 button_card" style="margin-top:30px;">
+                <div class="card-content">
+                    <center>
+                        <div class="align">
+                            <center>
+                                <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_xsnsvpbs.json" background="transparent" speed="1"
+                                    style="width: 250px; height: 250px;" loop autoplay></lottie-player>
+                            </center>
+                            <h3>
+                                <a target ="_blank">I'm DEEP</a>
+                            </h3>
+                            <h5>
+                                <a target ="_blank">"A Web-Developer"</a>
+                            </h5>
+                        </div>
+
+                        <div class="neon">
+                            <div class="neon_button" href="#" onClick="myFunc1()">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                Web Development
+                            </div>
+                            <div class="neon_button" href="#" onClick="myFunc5()">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                  Piano
+                            </div>
+
+                            <div class="neon_button" href="#" onClick="myFunc2()">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <a href="https://deepsolanki123.github.io/projectsunflowerwhoim.io/">WHO I'M</a>
+                            </div>
+
+                        </div>
+                    </center>
+
+                </div>
+            </div>
+
+
+
+<!-- Scropt loading ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+    <script type="text/javascript" src="js/filter.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.sidenav').sidenav();
+            $('.fixed-action-btn').floatingActionButton();
+            $('.collapsible').collapsible();
+            $('.tooltipped').tooltip();
+            $('.parallax').parallax();
+        });
+    </script>
+
+    <script src="maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script>
+        var preloader = document.getElementById('loading');
+        const myFunction23 = setInterval(() => {
+            preloader.style.display = "none";
+        }, 3000)
+    </script>
+  </body>
+
+</html>
